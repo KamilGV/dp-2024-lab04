@@ -10,7 +10,7 @@ import pytest
 @pytest.mark.repeat(10)
 def test_convert():
     """
-    Проверка конвертации случайных дат из digital в analog, и обратно.
+    Проверка корректной работы адаптера.
     """
     # Получаем случайную дату
     start_date = datetime(1800, 1, 1)
