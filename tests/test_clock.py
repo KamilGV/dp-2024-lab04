@@ -17,7 +17,6 @@ def test_convert():
 
     random_sec = random.randint(0, 10000000)
     random_date = start_date + timedelta(seconds=random_sec)
-    # random_date = datetime(1800, 4, 7, 23, 7, 3)
 
     # Создаём адаптер
     adapter = AnalogToDigitalAdapter(AnalogClock())
